@@ -177,10 +177,9 @@ main .tours {
     flex-wrap: wrap;
 }
 .image img {
-    width: 400px;
+    width: 100%;
     height: 250px;
     border-radius: 20px 20px 0 0;
-    position: absolute;
     object-fit: cover;
     object-position: center;
 }
@@ -188,12 +187,12 @@ main .tours {
 .favorite img {
     width: 30px;
     top: 20px;
-    left: 350px;
+    right: 0;
     position: relative;
 }
 
 .tours .conten-tours .card-tours {
-    width: 400px;
+    width: 30%;
     height: 430px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -202,11 +201,11 @@ main .tours {
 .card-tours .desc-card {
     padding: 1rem;
     padding-bottom: 2rem;
-    top: 14rem;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: end;
+    margin-top: -30px;
 }
 
 .title-card h3 {
@@ -360,9 +359,6 @@ footer {
     .explore p, .destination p, .client p {
         font-size: 10px;
     }
-    .image img {
-        width: 330px;
-    }
     .tours .conten-tours .card-tours {
         width: 330px;
     }
@@ -440,9 +436,6 @@ footer {
     .btn-about {
         margin-bottom: 2rem;
     }
-    .image img {
-        width: 270px;
-    }
     .tours .conten-tours .card-tours {
         width: 270px;
     }
@@ -500,9 +493,6 @@ footer {
     main .tours {
         padding: 2rem;
     }
-    .image img {
-        width: 350px;
-    }
     .tours .conten-tours .card-tours {
         width: 410px;
     }
@@ -529,6 +519,6 @@ footer {
         border-radius: 20px;
     }
     .conten-partner img {
-        width: 80px;
+        width: 70px;
     }
 }
