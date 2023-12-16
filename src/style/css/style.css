@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    opacity: 0.5;
+}
+
 nav {
     position: fixed;
     top: 0;
