@@ -238,7 +238,9 @@ main .tours {
     margin: auto;
     padding: 2rem 5rem;
 }
-
+.explore-video iframe{
+    border-radius: 20px;
+}
 /* testimoni  */
 #testimoni {
     margin: 5rem 0;
@@ -382,8 +384,9 @@ footer {
     .desc p {
         font-size: 15px;
     }
-    iframe {
+    .explore-video iframe {
         height: 400px;
+        border-radius: 20px;
     }
     .image-profile img {
         width: 50px;
@@ -472,7 +475,17 @@ footer {
         padding-top: 10rem;
     }
     header .jumbotron-conten {
+        order: 2;
+    }
+    .jumbotron-img img {
+        width: 100%;
+    }
+
+    header .jumbotron-conten {
         margin-right: 0;
+    }
+    .about .about-img img {
+        width: 100%;
     }
     main .about {
         padding: 5rem 2rem;
@@ -484,10 +497,13 @@ footer {
         padding: 2rem;
     }
     .image img {
-        width: 395px;
+        width: 350px;
     }
     .tours .conten-tours .card-tours {
         width: 410px;
+    }
+    .tours .conten-tours {
+        justify-content: center;
     }
     .explore-video {
         padding: 2rem;
@@ -503,5 +519,12 @@ footer {
     }
     .conten-partner {
         gap: 50px;
+    }
+    .explore-video iframe {
+        height: 200px;
+        border-radius: 20px;
+    }
+    .conten-partner img {
+        width: 80px;
     }
 }
