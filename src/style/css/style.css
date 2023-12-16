@@ -1,0 +1,507 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+}
+
+nav .navbar {
+    padding: 1.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+nav .navbar .logo a{
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.navbar .nav-link {
+    width: 40%;
+}
+
+.navbar .nav-link ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-link ul li a {
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+.navbar .nav-button {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .nav-button .signup-btn a{
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    background-color: #06AFF0;
+    color: #ffffff;
+}
+
+.navbar .nav-button a {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.navbar .nav-button .login-btn a {
+    color: #000000;
+}
+
+
+/* jumbotron style */
+header .jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    padding: 5rem 5rem;
+    padding-top: 10rem;
+    padding-right: 0;
+}
+
+header .jumbotron-conten {
+    margin-right: 3rem;
+}
+
+.title h1{
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.desc {
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin-bottom: 1.5rem;
+    color: #808080;
+}
+
+.btn {
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    background-color: #06AFF0;
+    border-radius: 20px;
+}
+
+.btn a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+/* about style */
+main .about {
+    max-width: 1440px;
+    margin: auto;
+    padding: 5rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .conten-about {
+    margin-left: 3rem;
+}
+
+.btn-about {
+    margin-bottom: 3rem;
+}
+
+.about .information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore, .destination, .client {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Poppins';
+}
+
+.explore h2, .destination h2, .client h2 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+
+/* tours style */
+main .tours {
+    max-width: 1440px;
+    margin: auto;
+    padding: 5rem;
+}
+
+.tours .title-tours {
+    text-align: center;
+}
+.tours .conten-tours {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.image img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+}
+
+.favorite img {
+    width: 30px;
+    top: 20px;
+    left: 350px;
+    position: relative;
+}
+
+.tours .conten-tours .card-tours {
+    width: 400px;
+    height: 430px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-tours .desc-card {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    top: 14rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.title-card h3 {
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.title-card p {
+    font-family: 'Poppins';
+    margin-bottom: 2rem;
+}
+
+.title-card h4 {
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+.title-card span {
+    font-weight: 400;
+}
+
+.desc-card .btn-book a{
+    font-family: 'Poppins';
+    color: #06AFF0;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #06AFF0;
+}
+
+/* explore style */
+.explore-video {
+    max-width: 1440px;
+    margin: auto;
+    padding: 2rem 5rem;
+}
+
+/* testimoni  */
+#testimoni {
+    margin: 5rem 0;
+    background-color: #d5f3ff;
+}
+.testimoni {
+    max-width: 1440px;
+    margin: auto;
+    padding: 2rem 5rem;
+}
+.testimoni .title-testimoni {
+    text-align: center;
+}
+
+.title-testimoni p {
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+.testimoni .conten-testi {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conten-testi .card-testi {
+    width: 30%;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-profile img {
+    border-radius: 50%;
+}
+
+.profile-testi {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.name-profile h5 {
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin-bottom: 0.2rem;
+}
+
+.name-profile p {
+    font-family: 'Poppins';
+}
+
+.comment-testi p {
+    font-family: 'Poppins';
+    color: #808080;
+}
+
+/* style partner */
+.partner {
+    max-width: 1440px;
+    margin: auto;
+    padding: 2rem 5rem;
+    padding-bottom: 5rem;
+}
+
+.title-partner {
+    text-align: center;
+}
+
+.title-partner p {
+    color: #808080;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+.conten-partner {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* footer style */
+footer {
+    height: 200px;
+    background-color: #06AFF0;
+}
+
+
+/* responsive 1280px */
+@media screen and (max-width: 1280px) {
+    .about .about-img img {
+        width: 500px;
+    }
+    .btn {
+        padding: 0.5rem 0;
+    }
+    .btn-about {
+        margin-bottom: 2rem;
+    }
+    .title h1 {
+        font-size: 35px;
+    }
+    .desc p {
+        font-size: 18px;
+    }
+    .explore h2, .destination h2, .client h2 {
+        font-size: 25px;
+    }
+    .explore p, .destination p, .client p {
+        font-size: 10px;
+    }
+    .image img {
+        width: 330px;
+    }
+    .tours .conten-tours .card-tours {
+        width: 330px;
+    }
+    .favorite img {
+        left: 280px;
+    }
+    .title-card h3 {
+        font-size: 20px;
+    }
+}
+
+/* responsive 960px */
+@media screen and (max-width: 960px) {
+    .jumbotron-img img {
+        width: 400px;
+    }
+    .title h1 {
+        font-size: 25px;
+    }
+    .about .about-img img {
+        width: 400px;
+    }
+    .desc p {
+        font-size: 15px;
+    }
+    iframe {
+        height: 400px;
+    }
+    .image-profile img {
+        width: 50px;
+    }
+    .name-profile h5 {
+        font-size: 18px;
+    }
+    .name-profile p {
+        font-size: 15px;
+    }
+    .comment-testi p {
+        font-size: 15px;
+    }
+    .navbar .nav-link {
+        width: 50%;
+    }
+}
+
+/* responsive 768 */
+@media screen and (max-width: 768px) {
+    .navbar .nav-link {
+        display: none;
+    }
+    header .jumbotron {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+    .title h1 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+    main .about {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+    .conten-partner {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .btn-about {
+        margin-bottom: 2rem;
+    }
+    .image img {
+        width: 270px;
+    }
+    .tours .conten-tours .card-tours {
+        width: 270px;
+    }
+    .title-card h3 {
+        font-size: 15px;
+    }
+    .testimoni .conten-testi {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .conten-testi .card-testi {
+        width: 48%;
+        flex-wrap: wrap;
+    }
+    .explore p, .destination p, .client p {
+        text-align: start;
+    }
+    .explore, .destination, .client {
+        gap: 0.5rem;
+    }
+}
+
+/* responsive 460px */
+@media screen and (max-width: 460px) {
+    nav .navbar {
+        padding: 1.5rem 2rem;
+    }
+    .navbar .nav-button {
+        display: none;
+    }
+    header .jumbotron {
+        padding: 5rem 2rem;
+        padding-top: 10rem;
+    }
+    header .jumbotron-conten {
+        margin-right: 0;
+    }
+    main .about {
+        padding: 5rem 2rem;
+    }
+    .about .conten-about {
+        margin-left: 0;
+    }
+    main .tours {
+        padding: 2rem;
+    }
+    .image img {
+        width: 395px;
+    }
+    .tours .conten-tours .card-tours {
+        width: 410px;
+    }
+    .explore-video {
+        padding: 2rem;
+    }
+    .testimoni {
+        padding: 2rem;
+    }
+    .conten-testi .card-testi {
+        width: 100%;
+    }
+    .partner {
+        padding: 2rem;
+    }
+    .conten-partner {
+        gap: 50px;
+    }
+}
